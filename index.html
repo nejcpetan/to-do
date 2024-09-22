@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/list-checks.svg" />
+    <link rel="stylesheet" href="/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nathan's to-do list</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="toast" class="hidden fixed top-4 right-4 bg-red-500 text-white px-4 py-2 rounded-md shadow-lg">
+        Please enter both a title and a description.
+      </div>
+      <h1>Nathan's To-Do list</h1>
+      <div>
+        <input type="text" id="new-task-title" placeholder="Title"/>
+        <input type="text" id="new-task-description" placeholder="Task description"/><button id="add-task">Add Task</button>
+        <ul id="task-list">
+          
+        </ul>
+        
+      </div>
+
+
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
